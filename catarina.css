@@ -1,0 +1,191 @@
+body{
+	background-color: #ffd1dc;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.page {
+	background-color: white;
+	position:absolute;
+	top:0px;
+	height:2670px;
+	width:1400px;
+	left:50px;
+}
+
+header {
+	min-height: 300px;
+	z-index:100;
+	display:flex;
+	text-align: center;
+}
+
+.CS_headline {
+	min-height: 300px;
+	display:flex;
+	min-width: 200px;
+	position:relative;
+	left:40px;
+}
+
+h1 {
+	font-size: 72px;
+	/*position:relative;
+	top:-190px;
+	z-index:100;*/
+}
+
+.inline {
+	display:inline-block;
+	position:relative;
+	top:20px;
+}
+
+#start_image {
+	min-height:700px;
+	min-width:400px;
+	display:flex;
+	position:relative;
+	left:100px;
+	bottom:200px;
+}
+
+.ml13 {
+  font-size: 1.9em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  font-weight: 600;
+}
+
+.ml13 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.introtext {
+	min-height: 400px;
+	min-width: 200px;
+}
+
+
+
+.friendtext {
+	width:920px;
+	left:200px;
+	position:relative;
+	bottom:100px;
+}
+
+.music_link {
+	left:550px;
+	position:relative;
+}
+
+.photo_wall {
+	min-width: 1350px;
+	min-height: 600px;
+	display:flex;
+}
+
+#middle_image {
+	position:absolute;
+	left:450px;
+	
+}
+
+.image_square_left {
+	min-width: 350px;
+	min-height: 600px;
+}
+
+.image_square_right {
+	min-width: 350px;
+	min-height: 600px;
+	position:absolute;
+	right:0px;
+}
+
+#slut_text {
+	position:absolute;
+	left:100px;
+}
+
+a {
+	text-decoration: none;
+	color:black;
+	font-size: 24px;
+}
+
+a:hover {
+	border-bottom: 1px solid black;
+}
+
+aside {
+	background-color: #ffd1dc;
+	color:white;
+	height:100%;
+	width: 50px;
+	position:absolute;
+	top:0px;
+	left:-80px;
+}
+
+p {
+	line-height: 30px;
+	font-size: 18px;
+}
+
+.big_image_text {
+	left:645px;
+	position:relative;
+	-moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+    column-gap: 40px;
+    display:flex;
+    width:30%;
+    text-align: justify;
+    bottom:110px;
+}
+
+#content {
+	position:absolute;
+	left:30px;
+	top:170px;
+	z-index: 5;
+}
+
+#gray_date {
+	color:gray;
+	bottom:15px;
+	position: relative;
+	left:30px;
+}
+
+.border_container {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	position:relative;
+	top:3650px;
+	height:600px;
+}
+
+.border_links {
+	position:relative;
+	top:70px;
+	left:500px;
+}
+
+footer {
+	bottom:30px;
+	position:absolute;
+	left:50px;
+}
+
+.copyright {
+	font-size: 18px;
+	color:gray;
+}
+
+#copyright_p {
+	display: inline;
+}
